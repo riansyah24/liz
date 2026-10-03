@@ -1,0 +1,23 @@
+{
+  "name": "liz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "@supabase/supabase-js": "^2.117.2",
+    "axios": "^1.20.0",
+    "groq-sdk": "^1.5.0",
+    "mime": "^4.1.0",
+    "node-telegram-bot-api": "^2.0.0",
+    "nodemon": "^3.1.14"
+  }
+}
